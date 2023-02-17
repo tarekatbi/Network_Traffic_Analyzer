@@ -1,0 +1,114 @@
+@startuml
+note left of 127.0.0.1
+51518
+end note
+127.0.0.1-->192.168.1.12:TCP->[SYN] SN=3615093216 AN=0 WIN=65495 windowscale= 10 Timestampsvalue= 1445648259 Timestampsecho= 0
+note left of 192.168.1.12
+80
+end note
+note left of 192.168.1.12
+80
+end note
+192.168.1.12-->127.0.0.1:TCP->[SYN/ACK] SN=3765822790 AN=3615093217 WIN= 65483 windowscale= 10 Timestampsvalue= 1445648259 Timestampsecho= 1445648259
+note left of 127.0.0.1
+51518
+end note
+note left of 127.0.0.1
+51518
+end note
+127.0.0.1-->192.168.1.12:TCP->[ACK] SN=3615093217 AN=3765822791 WIN=64 windowscale= 10 Timestampsvalue= 10 Timestampsecho= 1445648259
+note left of 192.168.1.12
+80
+end note
+note left of 192.168.1.12
+80
+end note
+192.168.1.12-->127.0.0.1:TCP->[ACK] SN=3765822791 AN=3615093217 WIN=64 windowscale= 10 Timestampsvalue= 10 Timestampsecho= 1445648259
+note left of 127.0.0.1
+51518
+end note
+note left of 10.33.182.178
+33971
+end note
+10.33.182.178-->192.55.52.40:TCP->[SYN] SN=3063197879 AN=0 WIN=5840 windowscale= 0 Timestampsvalue= 7317281 Timestampsecho= 0
+note left of 192.55.52.40
+80
+end note
+note left of 192.55.52.40
+80
+end note
+192.55.52.40-->10.33.182.178:TCP->[SYN/ACK] SN=610765288 AN=3063197880 WIN= 64240 windowscale= 0 Timestampsvalue= 0 Timestampsecho= 0
+note left of 10.33.182.178
+33971
+end note
+note left of 10.33.182.178
+33971
+end note
+10.33.182.178-->192.55.52.40:TCP->[ACK] SN=3063197880 AN=610765289 WIN=5840 windowscale= 0 Timestampsvalue= 0 Timestampsecho= 0
+note left of 192.55.52.40
+80
+end note
+note left of 10.33.182.178
+33971
+end note
+10.33.182.178-->192.55.52.40:TCP->[SYN] SN=3063197879 AN=0 WIN=5840 windowscale= 0 Timestampsvalue= 7317281 Timestampsecho= 0
+note left of 192.55.52.40
+80
+end note
+note left of 192.55.52.40
+80
+end note
+192.55.52.40-->10.33.182.178:TCP->[SYN/ACK] SN=610765288 AN=3063197880 WIN= 64240 windowscale= 0 Timestampsvalue= 0 Timestampsecho= 0
+note left of 10.33.182.178
+33971
+end note
+note left of 10.33.182.178
+33971
+end note
+10.33.182.178-->192.55.52.40:TCP->[ACK] SN=3063197880 AN=610765289 WIN=5840 windowscale= 0 Timestampsvalue= 0 Timestampsecho= 0
+note left of 192.55.52.40
+80
+end note
+note left of 10.33.182.178
+33971
+end note
+10.33.182.178-->192.55.52.40:TCP->[SYN] SN=3063197879 AN=0 WIN=5840 windowscale= 0 Timestampsvalue= 7317281 Timestampsecho= 0
+note left of 192.55.52.40
+80
+end note
+note left of 192.55.52.40
+80
+end note
+192.55.52.40-->10.33.182.178:TCP->[SYN/ACK] SN=610765288 AN=3063197880 WIN= 64240 windowscale= 0 Timestampsvalue= 0 Timestampsecho= 0
+note left of 10.33.182.178
+33971
+end note
+note left of 10.33.182.178
+33971
+end note
+10.33.182.178-->192.55.52.40:TCP->[ACK] SN=3063197880 AN=610765289 WIN=5840 windowscale= 0 Timestampsvalue= 0 Timestampsecho= 0
+note left of 192.55.52.40
+80
+end note
+note left of 10.33.182.178
+33971
+end note
+10.33.182.178-->192.55.52.40:TCP->[SYN] SN=3063197879 AN=0 WIN=5840 windowscale= 0 Timestampsvalue= 7317281 Timestampsecho= 0
+note left of 192.55.52.40
+80
+end note
+note left of 192.55.52.40
+80
+end note
+192.55.52.40-->10.33.182.178:TCP->[SYN/ACK] SN=610765288 AN=3063197880 WIN= 64240 windowscale= 0 Timestampsvalue= 0 Timestampsecho= 0
+note left of 10.33.182.178
+33971
+end note
+note left of 10.33.182.178
+33971
+end note
+10.33.182.178-->192.55.52.40:TCP->[ACK] SN=3063197880 AN=610765289 WIN=5840 windowscale= 0 Timestampsvalue= 0 Timestampsecho= 0
+note left of 192.55.52.40
+80
+end note
+@enduml

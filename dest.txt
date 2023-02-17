@@ -1,0 +1,826 @@
+__________________________________________TRAME 1_________________________________________
+_________________________________________ 74.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 42:6f:6e:6a:6f:75
+L'Adresse MAC Source est : 72:20:43:6c:69:65:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 60
+IDENTIFICATION : 47447
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 64
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 8362
+Adresse IP Source : 127.0.0.1
+Adresse IP Destination : 192.168.1.12
+
+__________________________________________TCP_____________________________________________
+Port Source : 51518
+Port Destination : 80
+Sequence Number : 3615093216
+ACK Number : 0
+THL : 0xa
+L'entete TCP contient 40 octets donc 20 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 0 PSH : 0 RST : 0 SYN : 1 FIN : 0
+Window : ffd7
+Checksum : fe30
+Urgent Pointer : 0000
+	  TCP Option  -  Maximum Segment Size
+		Kind: Maximum Segment Size: (2)
+		Length: 4
+		MSS Value: 65495
+	  TCP Option  -  Sack Permitted
+		Kind: Sack Permitted: (4)
+		Length: 2
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 1445648259
+		Timestamp echo reply: 0
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Windows Scale
+		Kind: Windows Scale: (3)
+		Length: 3
+		Shift Count: 10
+_______________________DATA_____________________________
+
+__________________________________________TRAME 2_________________________________________
+_________________________________________ 74.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 72:20:43:6c:69:65
+L'Adresse MAC Source est : 42:6f:6e:6a:6f:75:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 60
+IDENTIFICATION : 0
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 64
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 3cba
+Adresse IP Source : 192.168.1.12
+Adresse IP Destination : 127.0.0.1
+
+__________________________________________TCP_____________________________________________
+Port Source : 80
+Port Destination : 51518
+Sequence Number : 3765822790
+ACK Number : 3615093217
+THL : 0xa
+L'entete TCP contient 40 octets donc 20 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 1 PSH : 0 RST : 0 SYN : 1 FIN : 0
+Window : ffcb
+Checksum : fe30
+Urgent Pointer : 0000
+	  TCP Option  -  Maximum Segment Size
+		Kind: Maximum Segment Size: (2)
+		Length: 4
+		MSS Value: 65495
+	  TCP Option  -  Sack Permitted
+		Kind: Sack Permitted: (4)
+		Length: 2
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 1445648259
+		Timestamp echo reply: 1445648259
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Windows Scale
+		Kind: Windows Scale: (3)
+		Length: 3
+		Shift Count: 10
+_______________________DATA_____________________________
+
+__________________________________________TRAME 3_________________________________________
+_________________________________________ 66.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 42:6f:6e:6a:6f:75
+L'Adresse MAC Source est : 72:20:43:6c:69:65:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 52
+IDENTIFICATION : 47448
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 64
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 8369
+Adresse IP Source : 127.0.0.1
+Adresse IP Destination : 192.168.1.12
+
+__________________________________________TCP_____________________________________________
+Port Source : 51518
+Port Destination : 80
+Sequence Number : 3615093217
+ACK Number : 3765822791
+THL : 0x8
+L'entete TCP contient 32 octets donc 12 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 1 PSH : 0 RST : 0 SYN : 0 FIN : 0
+Window : 0040
+Checksum : fe28
+Urgent Pointer : 0000
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 1445648259
+		Timestamp echo reply: 1445648259
+_______________________DATA_____________________________
+
+__________________________________________TRAME 4_________________________________________
+_________________________________________ 144.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 72:20:43:6c:69:65
+L'Adresse MAC Source est : 42:6f:6e:6a:6f:75:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 118
+IDENTIFICATION : 12408
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 64
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 0c08
+Adresse IP Source : 192.168.1.12
+Adresse IP Destination : 127.0.0.1
+
+__________________________________________TCP_____________________________________________
+Port Source : 80
+Port Destination : 51518
+Sequence Number : 3765822791
+ACK Number : 3615093217
+THL : 0x8
+L'entete TCP contient 32 octets donc 12 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 1 PSH : 1 RST : 0 SYN : 0 FIN : 0
+Window : 0040
+Checksum : fe6a
+Urgent Pointer : 0000
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 1445648259
+		Timestamp echo reply: 1445648259
+_______________________DATA_____________________________
+
+__________________________________________TRAME 5_________________________________________
+_________________________________________ 74.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 00:50:7f:05:7d:40
+L'Adresse MAC Source est : 00:10:a4:86:2d:0b:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 60
+IDENTIFICATION : 6038
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 64
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 6df3
+Adresse IP Source : 10.33.182.178
+Adresse IP Destination : 192.55.52.40
+
+__________________________________________TCP_____________________________________________
+Port Source : 33971
+Port Destination : 80
+Sequence Number : 3063197879
+ACK Number : 0
+THL : 0xa
+L'entete TCP contient 40 octets donc 20 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 0 PSH : 0 RST : 0 SYN : 1 FIN : 0
+Window : 16d0
+Checksum : e823
+Urgent Pointer : 0000
+	  TCP Option  -  Maximum Segment Size
+		Kind: Maximum Segment Size: (2)
+		Length: 4
+		MSS Value: 1460
+	  TCP Option  -  Sack Permitted
+		Kind: Sack Permitted: (4)
+		Length: 2
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 7317281
+		Timestamp echo reply: 0
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Windows Scale
+		Kind: Windows Scale: (3)
+		Length: 3
+		Shift Count: 0
+_______________________DATA_____________________________
+
+__________________________________________TRAME 6_________________________________________
+_________________________________________ 78.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 00:10:a4:86:2d:0b
+L'Adresse MAC Source est : 00:50:7f:05:7d:40:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 64
+IDENTIFICATION : 53766
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 112
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 877e
+Adresse IP Source : 192.55.52.40
+Adresse IP Destination : 10.33.182.178
+
+__________________________________________TCP_____________________________________________
+Port Source : 80
+Port Destination : 33971
+Sequence Number : 610765288
+ACK Number : 3063197880
+THL : 0xb
+L'entete TCP contient 44 octets donc 24 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 1 PSH : 0 RST : 0 SYN : 1 FIN : 0
+Window : faf0
+Checksum : eb66
+Urgent Pointer : 0000
+	  TCP Option  -  Maximum Segment Size
+		Kind: Maximum Segment Size: (2)
+		Length: 4
+		MSS Value: 1402
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Windows Scale
+		Kind: Windows Scale: (3)
+		Length: 3
+		Shift Count: 0
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 0
+		Timestamp echo reply: 0
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Sack Permitted
+		Kind: Sack Permitted: (4)
+		Length: 2
+_______________________DATA_____________________________
+
+__________________________________________TRAME 7_________________________________________
+_________________________________________ 66.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 00:50:7f:05:7d:40
+L'Adresse MAC Source est : 00:10:a4:86:2d:0b:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 52
+IDENTIFICATION : 6039
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 64
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 6dfa
+Adresse IP Source : 10.33.182.178
+Adresse IP Destination : 192.55.52.40
+
+__________________________________________TCP_____________________________________________
+Port Source : 33971
+Port Destination : 80
+Sequence Number : 3063197880
+ACK Number : 610765289
+THL : 0x8
+L'entete TCP contient 32 octets donc 12 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 1 PSH : 0 RST : 0 SYN : 0 FIN : 0
+Window : 16d0
+Checksum : 6877
+Urgent Pointer : 0000
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 7317298
+		Timestamp echo reply: 0
+_______________________DATA_____________________________
+
+__________________________________________TRAME 8_________________________________________
+_________________________________________ 74.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 00:50:7f:05:7d:40
+L'Adresse MAC Source est : 00:10:a4:86:2d:0b:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 60
+IDENTIFICATION : 6038
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 64
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 6df3
+Adresse IP Source : 10.33.182.178
+Adresse IP Destination : 192.55.52.40
+
+__________________________________________TCP_____________________________________________
+Port Source : 33971
+Port Destination : 80
+Sequence Number : 3063197879
+ACK Number : 0
+THL : 0xa
+L'entete TCP contient 40 octets donc 20 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 0 PSH : 0 RST : 0 SYN : 1 FIN : 0
+Window : 16d0
+Checksum : e823
+Urgent Pointer : 0000
+	  TCP Option  -  Maximum Segment Size
+		Kind: Maximum Segment Size: (2)
+		Length: 4
+		MSS Value: 1460
+	  TCP Option  -  Sack Permitted
+		Kind: Sack Permitted: (4)
+		Length: 2
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 7317281
+		Timestamp echo reply: 0
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Windows Scale
+		Kind: Windows Scale: (3)
+		Length: 3
+		Shift Count: 0
+_______________________DATA_____________________________
+
+__________________________________________TRAME 9_________________________________________
+_________________________________________ 78.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 00:10:a4:86:2d:0b
+L'Adresse MAC Source est : 00:50:7f:05:7d:40:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 64
+IDENTIFICATION : 53766
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 112
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 877e
+Adresse IP Source : 192.55.52.40
+Adresse IP Destination : 10.33.182.178
+
+__________________________________________TCP_____________________________________________
+Port Source : 80
+Port Destination : 33971
+Sequence Number : 610765288
+ACK Number : 3063197880
+THL : 0xb
+L'entete TCP contient 44 octets donc 24 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 1 PSH : 0 RST : 0 SYN : 1 FIN : 0
+Window : faf0
+Checksum : eb66
+Urgent Pointer : 0000
+	  TCP Option  -  Maximum Segment Size
+		Kind: Maximum Segment Size: (2)
+		Length: 4
+		MSS Value: 1402
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Windows Scale
+		Kind: Windows Scale: (3)
+		Length: 3
+		Shift Count: 0
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 0
+		Timestamp echo reply: 0
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Sack Permitted
+		Kind: Sack Permitted: (4)
+		Length: 2
+_______________________DATA_____________________________
+
+__________________________________________TRAME 10_________________________________________
+_________________________________________ 66.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 00:50:7f:05:7d:40
+L'Adresse MAC Source est : 00:10:a4:86:2d:0b:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 52
+IDENTIFICATION : 6039
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 64
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 6dfa
+Adresse IP Source : 10.33.182.178
+Adresse IP Destination : 192.55.52.40
+
+__________________________________________TCP_____________________________________________
+Port Source : 33971
+Port Destination : 80
+Sequence Number : 3063197880
+ACK Number : 610765289
+THL : 0x8
+L'entete TCP contient 32 octets donc 12 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 1 PSH : 0 RST : 0 SYN : 0 FIN : 0
+Window : 16d0
+Checksum : 6877
+Urgent Pointer : 0000
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 7317298
+		Timestamp echo reply: 0
+_______________________DATA_____________________________
+
+__________________________________________TRAME 11_________________________________________
+_________________________________________ 74.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 00:50:7f:05:7d:40
+L'Adresse MAC Source est : 0010a4862d0b
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 60
+IDENTIFICATION : 6038
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 64
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 6df3
+Adresse IP Source : 10.33.182.178
+Adresse IP Destination : 192.55.52.40
+
+__________________________________________TCP_____________________________________________
+Port Source : 33971
+Port Destination : 80
+Sequence Number : 3063197879
+ACK Number : 0
+THL : 0xa
+L'entete TCP contient 40 octets donc 20 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 0 PSH : 0 RST : 0 SYN : 1 FIN : 0
+Window : 16d0
+Checksum : e823
+Urgent Pointer : 0000
+	  TCP Option  -  Maximum Segment Size
+		Kind: Maximum Segment Size: (2)
+		Length: 4
+		MSS Value: 1460
+	  TCP Option  -  Sack Permitted
+		Kind: Sack Permitted: (4)
+		Length: 2
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 7317281
+		Timestamp echo reply: 0
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Windows Scale
+		Kind: Windows Scale: (3)
+		Length: 3
+		Shift Count: 0
+_______________________DATA_____________________________
+
+__________________________________________TRAME 12_________________________________________
+_________________________________________ 78.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 00:10:a4:86:2d:0b
+L'Adresse MAC Source est : 00:50:7f:05:7d:40:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 64
+IDENTIFICATION : 53766
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 112
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 877e
+Adresse IP Source : 192.55.52.40
+Adresse IP Destination : 10.33.182.178
+
+__________________________________________TCP_____________________________________________
+Port Source : 80
+Port Destination : 33971
+Sequence Number : 610765288
+ACK Number : 3063197880
+THL : 0xb
+L'entete TCP contient 44 octets donc 24 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 1 PSH : 0 RST : 0 SYN : 1 FIN : 0
+Window : faf0
+Checksum : eb66
+Urgent Pointer : 0000
+	  TCP Option  -  Maximum Segment Size
+		Kind: Maximum Segment Size: (2)
+		Length: 4
+		MSS Value: 1402
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Windows Scale
+		Kind: Windows Scale: (3)
+		Length: 3
+		Shift Count: 0
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 0
+		Timestamp echo reply: 0
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Sack Permitted
+		Kind: Sack Permitted: (4)
+		Length: 2
+_______________________DATA_____________________________
+
+__________________________________________TRAME 13_________________________________________
+_________________________________________ 66.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 00:50:7f:05:7d:40
+L'Adresse MAC Source est : 00:10:a4:86:2d:0b:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 52
+IDENTIFICATION : 6039
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 64
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 6dfa
+Adresse IP Source : 10.33.182.178
+Adresse IP Destination : 192.55.52.40
+
+__________________________________________TCP_____________________________________________
+Port Source : 33971
+Port Destination : 80
+Sequence Number : 3063197880
+ACK Number : 610765289
+THL : 0x8
+L'entete TCP contient 32 octets donc 12 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 1 PSH : 0 RST : 0 SYN : 0 FIN : 0
+Window : 16d0
+Checksum : 6877
+Urgent Pointer : 0000
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 7317298
+		Timestamp echo reply: 0
+_______________________DATA_____________________________
+
+__________________________________________TRAME 14_________________________________________
+_________________________________________ 74.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 00:50:7f:05:7d:40
+L'Adresse MAC Source est : 00:10:a4:86:2d:0b:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 60
+IDENTIFICATION : 6038
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 64
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 6df3
+Adresse IP Source : 10.33.182.178
+Adresse IP Destination : 192.55.52.40
+
+__________________________________________TCP_____________________________________________
+Port Source : 33971
+Port Destination : 80
+Sequence Number : 3063197879
+ACK Number : 0
+THL : 0xa
+L'entete TCP contient 40 octets donc 20 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 0 PSH : 0 RST : 0 SYN : 1 FIN : 0
+Window : 16d0
+Checksum : e823
+Urgent Pointer : 0000
+	  TCP Option  -  Maximum Segment Size
+		Kind: Maximum Segment Size: (2)
+		Length: 4
+		MSS Value: 1460
+	  TCP Option  -  Sack Permitted
+		Kind: Sack Permitted: (4)
+		Length: 2
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 7317281
+		Timestamp echo reply: 0
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Windows Scale
+		Kind: Windows Scale: (3)
+		Length: 3
+		Shift Count: 0
+_______________________DATA_____________________________
+
+__________________________________________TRAME 15_________________________________________
+_________________________________________ 78.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 00:10:a4:86:2d:0b
+L'Adresse MAC Source est : 00:50:7f:05:7d:40:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 64
+IDENTIFICATION : 53766
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 112
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 877e
+Adresse IP Source : 192.55.52.40
+Adresse IP Destination : 10.33.182.178
+
+__________________________________________TCP_____________________________________________
+Port Source : 80
+Port Destination : 33971
+Sequence Number : 610765288
+ACK Number : 3063197880
+THL : 0xb
+L'entete TCP contient 44 octets donc 24 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 1 PSH : 0 RST : 0 SYN : 1 FIN : 0
+Window : faf0
+Checksum : eb66
+Urgent Pointer : 0000
+	  TCP Option  -  Maximum Segment Size
+		Kind: Maximum Segment Size: (2)
+		Length: 4
+		MSS Value: 1402
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Windows Scale
+		Kind: Windows Scale: (3)
+		Length: 3
+		Shift Count: 0
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 0
+		Timestamp echo reply: 0
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Sack Permitted
+		Kind: Sack Permitted: (4)
+		Length: 2
+_______________________DATA_____________________________
+
+__________________________________________TRAME 16_________________________________________
+_________________________________________ 66.0 octets ____________________________________
+__________________________________________Ethernet________________________________________
+L'Adresse MAC Destination est : 00:50:7f:05:7d:40
+L'Adresse MAC Source est : 00:10:a4:86:2d:0b:
+Le Protocole encapsulé est : IPv4
+
+__________________________________________IP_____________________________________________
+IHL : 0x5
+L'entete IP ne contient pas d'option
+TOS : 0
+TOTAL LENGTH : 52
+IDENTIFICATION : 6039
+Flags : R = 0 DF = 1 MF = 0
+Offset : 0
+TTL : 64
+Protocol encapsulé : TCP
+HEADER CHECKSUM : 6dfa
+Adresse IP Source : 10.33.182.178
+Adresse IP Destination : 192.55.52.40
+
+__________________________________________TCP_____________________________________________
+Port Source : 33971
+Port Destination : 80
+Sequence Number : 3063197880
+ACK Number : 610765289
+THL : 0x8
+L'entete TCP contient 32 octets donc 12 octets d'options
+Reserved : 0
+Flags : URG : 0 ACK : 1 PSH : 0 RST : 0 SYN : 0 FIN : 0
+Window : 16d0
+Checksum : 6877
+Urgent Pointer : 0000
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  No-Operation (NOP)
+		Kind: No-Operation (1)
+	  TCP Option  -  Timestamps
+		Kind: Time Stamp Option (8)
+		Length: 10
+		Timestamp value: 7317298
+		Timestamp echo reply: 0
+_______________________DATA_____________________________
+
